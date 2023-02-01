@@ -1,0 +1,126 @@
+:root { /* var */
+    --cor-backgroud-body: #FFF;
+    --cor-header-nav: #31D485;
+    --cor-primaria-comprar : rgb(109, 212, 96);
+    --cor-hover: rgb(124, 175, 136);
+    --cor-secundaria-comprar : rgb(36, 97, 32);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    background: var(--cor-backgroud-body);
+}
+
+.header {
+    height: 90px;
+    background: var(--cor-header-nav);
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+#logo-left img {
+    height: 70px;
+    width: 70px;
+    margin: 10px 10px 10px 20px;
+    border-radius: 20%;
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+.nav-right {
+    margin-right: 5px;
+}
+
+.nav-right ul li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 15px;
+}
+
+.nav-right ul li a {
+    color: black;
+    font-size: 1.2rem;
+    /* padding: 10px; */
+    /* background-color: white; */
+    /* border-radius: 20%; */
+    transition: all 300ms ease-in-out;
+}
+
+.nav-right ul li a:hover {
+    color: blue;
+}
+
+.conteudo-produtos {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.produto {
+    width: 200px;
+    margin: 5px;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.produto img {
+    height: 200px;
+}
+
+#nome {
+    margin: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 10px;
+}
+
+.btn-comprar {
+    background-color: var(--cor-primaria-comprar);
+    outline: none;
+    color: #fff;
+}
+
+.btn-comprar:hover {
+    background-color: var(--cor-hover);
+}
+
+.btn-comprar:active {
+    color: #fff;
+    background-color: black;
+}
