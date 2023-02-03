@@ -1,11 +1,11 @@
 /* Var */
 
 :root { 
-    --cor-backgroud-body: rgb(221, 51, 51);
-    --cor-header-nav: #dce0df;
-    --cor-primaria-comprar : rgb(109, 212, 96);
+    --cor-backgroud-body: #F8F4EA;
+    --cor-header-nav: #579BB1;
+    --cor-primaria-comprar : #4a4e69;
     --cor-hover: rgb(124, 175, 136);
-    --cor-secundaria-comprar : rgb(36, 97, 32);
+    --cor-secundaria-comprar : #4a4e69;
 }
 
 /* Reset */
@@ -96,6 +96,10 @@ a {
     cursor: pointer;
 }
 
+.nav-direito img {
+    width: 40px;
+}
+
 /* Produtos */
 
 #titulo {
@@ -116,7 +120,7 @@ a {
     width: 200px;
     margin: 5px;
     padding: 15px;
-    background-color: aqua;
+    background-color: #ecdbbe;
     border-radius: 20px;
     border: 2px solid black;
 }
