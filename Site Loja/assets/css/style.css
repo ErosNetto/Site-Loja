@@ -44,14 +44,31 @@ a {
     background: var(--cor-header-nav);
 }
 
-.logo-esquerdo img {
+.nav-esquerdo {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-esquerdo input {
+    height: 22px;
+    width: 260px;
+    margin-left: 17px;
+    border-radius: 10px;
+    padding: 1px 10px 1px 10px;
+    outline-style: none;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+.logo img {
     height: 70px;
     width: 70px;
     margin: 10px 10px 10px 20px;
     border-radius: 15%;
 }
 
-.logo-esquerdo img:hover {
+.logo img:hover {
     height: 80px;
     width: 80px;
     margin: 5px 5px 5px 15px;
@@ -71,7 +88,7 @@ a {
     color: black;
     font-weight: 600;
     font-size: 1.2rem;
-    transition: all 300ms ease-in-out;
+    transition: 0.2s;
 }
 
 .nav-direito ul li a:hover {
